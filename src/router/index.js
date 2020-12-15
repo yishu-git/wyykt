@@ -8,7 +8,13 @@ const routes = [
   {
     path: '/',
     name: 'home',
+    component: home
+  },
+  {
+    path: '/development',
+    name: 'development',
     component: development
+   
   }
 ]
 
