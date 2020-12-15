@@ -1,15 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/home'
+// import Home from '../views/home'
+import praEnglish from '../views/praEnglish/praEnglish.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
+ {
     path: '/',
-    name: 'home',
-    component: Home
-  }
+    name: 'praEnglish',
+    component: praEnglish
+  },
+
 ]
 
 const router = new VueRouter({
