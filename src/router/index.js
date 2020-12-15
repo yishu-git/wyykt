@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/home'
 
+import Xingqu from '../views/xingqu'
+
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,7 +14,9 @@ const routes = [
     component: Home
   },
   {
-  
+    path: '/xingqu',
+    name: 'xingqu',
+    component: Xingqu
   }
 ]
 
