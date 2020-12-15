@@ -1,5 +1,7 @@
 <template>
-  <div id="Products"></div>
+  <div id="Products">
+    <header></header>
+  </div>
 </template>
 
 <script>
@@ -13,5 +15,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="sass">
+*
+    padding: 0
+    margin: 0
+    list-style: none
+    box-sizing: border-box
 </style>
