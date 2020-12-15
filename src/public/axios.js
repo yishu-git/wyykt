@@ -7,7 +7,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 //实例axios
 const instance = axios.create({
   timeout: 5000,//超过这个时间就返回错误
-  baseURL: 'https://www.fastmock.site/mock/353b3ff6ec4bb5e23761589b516b7615/api'//这个是公共的接口
+  baseURL: 'https://www.fastmock.site/mock/84c99881f5fa46c34dc508e011c8b9cf/yishu'//这个是公共的接口
 });
 
 
